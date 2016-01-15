@@ -1,0 +1,3 @@
+#how to include a local jar into the project
+method 1:
+ mvn install:install-file -Dfile=my-jar.jar -DgroudId=org.eric -DartifactId=my-jar -Dversion=1.0 -Dpackaging=jar
