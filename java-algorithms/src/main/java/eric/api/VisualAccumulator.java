@@ -1,6 +1,8 @@
 package eric.api;
 
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * Created by root on 1/15/16.
@@ -30,5 +32,12 @@ public class VisualAccumulator {
 
     public String toString() {
         return "Mean (" + N + " values): "+ String.format("%7.5f", mean());
+    }
+
+    public static void main(String[] args) {
+        VisualAccumulator a = new VisualAccumulator(200, 1.0);
+        for(int t = 0; t < 200; t++)
+            a.addDataValue(StdRandom.uniform());
+        StdOut.println(a);
     }
 }
