@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java-algorithms/java-algorithms.iml" filepath="$PROJECT_DIR$/java-algorithms/java-algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-concurrency/java-concurrency.iml" filepath="$PROJECT_DIR$/java-concurrency/java-concurrency.iml" />
+      <module fileurl="file:///usr/home/test/java-learning/java-learning/java-enterprise/java-enterprise.iml" filepath="/usr/home/test/java-learning/java-learning/java-enterprise/java-enterprise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-framework/java-framework.iml" filepath="$PROJECT_DIR$/java-framework/java-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-standard/javase.iml" filepath="$PROJECT_DIR$/java-standard/javase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learning.iml" filepath="$PROJECT_DIR$/learning.iml" />
+    </modules>
+  </component>
+</project>

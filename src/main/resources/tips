@@ -1,3 +1,12 @@
-#how to include a local jar into the project
-method 1:
- mvn install:install-file -Dfile=my-jar.jar -DgroudId=org.eric -DartifactId=my-jar -Dversion=1.0 -Dpackaging=jar
+#maven
+#include local jar into a maven project
+mvn install:install-file -Dfile=my-jar.jar -DgroudId=org.eric -DartifactId=my-jar -Dversion=1.0 -Dpackaging=jar
+
+#git
+git init
+git add <files>
+git commit -m "some comment"
+
+git remote add origin https://github.com/no1-suntu/java-learning.git
+git push -u origin master
+
