@@ -23,7 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="java-algorithms" />
-        <module name="java-concurrency" />
         <module name="java-enterprise" />
         <module name="java-framework" />
         <module name="java-standard" />

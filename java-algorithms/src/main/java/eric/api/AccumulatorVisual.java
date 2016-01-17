@@ -7,11 +7,11 @@ import edu.princeton.cs.algs4.StdRandom;
 /**
  * Created by root on 1/15/16.
  */
-public class VisualAccumulator {
+public class AccumulatorVisual {
     private double total;
     private int N;
 
-    public VisualAccumulator(int trials, double max) {
+    public AccumulatorVisual(int trials, double max) {
         StdDraw.setXscale(0, trials);
         StdDraw.setYscale(0, max);
         StdDraw.setPenRadius(0.005);
@@ -35,7 +35,7 @@ public class VisualAccumulator {
     }
 
     public static void main(String[] args) {
-        VisualAccumulator a = new VisualAccumulator(200, 1.0);
+        AccumulatorVisual a = new AccumulatorVisual(200, 1.0);
         for(int t = 0; t < 200; t++)
             a.addDataValue(StdRandom.uniform());
         StdOut.println(a);

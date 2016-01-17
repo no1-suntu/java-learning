@@ -3,11 +3,11 @@ package eric.api;
 /**
  * Created by root on 1/15/16.
  */
-public class FixedSizeStackOfStrings {
+public class StackFixedSizeOfStrings {
     private String[] a;
     private int N;
 
-    public FixedSizeStackOfStrings(int size) {
+    public StackFixedSizeOfStrings(int size) {
         a = new String[size];
     }
 

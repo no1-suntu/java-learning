@@ -6,11 +6,11 @@ import java.util.NoSuchElementException;
 /**
  * Created by root on 1/15/16.
  */
-public class FixedSizeStack<Item> {
+public class StackFixedSize<Item> {
     Item[] a;
     int N;
 
-    public FixedSizeStack(int size) {
+    public StackFixedSize(int size) {
         a = (Item[])new Object[size];
     }
 

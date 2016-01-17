@@ -4,13 +4,13 @@
 import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
-import eric.api.VisualAccumulator;
+import eric.api.AccumulatorVisual;
 import org.junit.Test;
 
 public class TestAlgs {
 
     @Test
-    public void main(String[] args) {
+    public void test1() {
         StdDraw.setScale(-1.0D, 1.0D);
         StdDraw.clear(StdDraw.BLACK);
         StdDraw.setPenColor(StdDraw.WHITE);
@@ -29,10 +29,11 @@ public class TestAlgs {
     }
 
     @Test
-    void testVisualAccumulator(int T){
-        VisualAccumulator a = new VisualAccumulator(T, 1.0);
+    public void testVisualAccumulator(){
+        int T = 1000;
+        AccumulatorVisual a = new AccumulatorVisual(T, 1.0);
         for(int t = 0; t < T; t++)
-            a.addDataValue(StdRandom.random());
+            a.addDataValue(StdRandom.uniform());
         StdOut.println(a);
     }
 
